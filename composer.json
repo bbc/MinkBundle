@@ -1,5 +1,5 @@
 {
-    "name": "behat/mink-bundle",
+    "name": "bbc/mink-bundle",
     "type": "symfony-bundle",
     "description": "Mink bundle for Symfony2",
     "keywords": ["web", "test", "browser"],
@@ -18,7 +18,7 @@
     "require": {
         "php":                          ">=5.3.3",
         "behat/mink":                   "~1.4",
-        "symfony/framework-bundle":     "~2.2",
+        "symfony/framework-bundle":     "~2.2|~3.0",
         "behat/mink-browserkit-driver": "~1.1"
     },
     "require-dev": {
